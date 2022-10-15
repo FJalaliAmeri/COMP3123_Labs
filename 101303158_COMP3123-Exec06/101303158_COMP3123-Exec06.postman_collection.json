@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "8a9b9bb5-f597-4f7c-b048-566997205181",
+		"name": "101303158_COMP3123-Exec06",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23643840"
+	},
+	"item": [
+		{
+			"name": "Notes_add_POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteTitle\": \"Note 5\",\r\n    \"noteDescription\": \"Note 5 Description\",\r\n    \"priority\": \"high\",\r\n    \"dateAdded\": \"2023-11-20\",\r\n    \"dateUpdated\": \"2023-09-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/notes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes_all_GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteTitle\": \"Note 5\",\r\n    \"noteDescription\": \"Note 5 Description\",\r\n    \"priority\": \"high\",\r\n    \"dateAdded\": \"2023-11-20\",\r\n    \"dateUpdated\": \"2023-09-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/notes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes_byId_GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteTitle\": \"Note 5\",\r\n    \"noteDescription\": \"Note 5 Description\",\r\n    \"priority\": \"high\",\r\n    \"dateAdded\": \"2023-11-20\",\r\n    \"dateUpdated\": \"2023-09-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/notes/634a00b1d85d811e081d7e4c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"notes",
+						"634a00b1d85d811e081d7e4c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes_update_PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteTitle\": \"Note 6\",\r\n    \"noteDescription\": \"Note 6 Description\",\r\n    \"priority\": \"low\",\r\n    \"dateAdded\": \"2023-11-20\",\r\n    \"dateUpdated\": \"2023-09-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/notes/634a02915890f24708c62331",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"notes",
+						"634a02915890f24708c62331"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes_delete_DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteTitle\": \"Note 6\",\r\n    \"noteDescription\": \"Note 6 Description\",\r\n    \"priority\": \"low\",\r\n    \"dateAdded\": \"2023-11-20\",\r\n    \"dateUpdated\": \"2023-09-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/notes/634a02915890f24708c62331",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"notes",
+						"634a02915890f24708c62331"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
