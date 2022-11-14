@@ -5,3 +5,4 @@
 #### Lab 4 Completed
 #### Lab 5 Completed
 #### Lab 6 Completed
+#### Lab 9 Completed
